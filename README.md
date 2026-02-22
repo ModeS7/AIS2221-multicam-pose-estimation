@@ -2,6 +2,8 @@
 
 Distributed multi-camera system using OAK-D PoE depth cameras for real-time human pose estimation. Combines stereo vision geometry (epipolar constraints, triangulation) with deep learning-based skeleton detection (OpenVINO).
 
+![Pose Estimation Demo](docs/examples/pose_estimation_3d.png)
+
 ## Course Information
 
 - **Course:** [AIS2221 - Industriprosjekt](https://www.ntnu.edu/studies/courses/AIS2221)
@@ -124,6 +126,12 @@ jupyter notebook
 ```
 
 The notebooks demonstrate 4-point and 8-point algorithms on synthetic data, and triangulation for 3D reconstruction.
+
+## Example Results
+
+| Stereo Rectification | Disparity Map |
+|---|---|
+| ![Rectified](docs/examples/rectified_stereo.png) | ![Disparity](docs/examples/disparity_map.png) |
 
 ## Architecture
 
