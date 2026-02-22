@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+tutorial/
+**/Lib/
+**/Scripts/
+**/site-packages/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Neural network models
+*.blob
+
+# 3D point clouds
+*.ply
+
+# Archives
+*.zip
+*.rar
+
+# Large media
+*.mp4
+*.avi
